@@ -26,8 +26,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
       $otp=mt_rand(1000,9999);
       echo "$otp";
       $msg=urlencode("Hello, Your Login OTP is - $otp\n Don't Share with anyone \n Powered By -https://www.freesv.com");
-      $url="http://www.smsidea.co.in/sendsms.aspx?mobile=8277529481&pass=GGXVQ&senderid=SMSBUZ&to=".$phone  ."&msg=".$msg;
-      //$url="https://smsapi.engineeringtgr.com/send/?Mobile=9008444205&Password=varunadeva&Key=VaruGGnIfuxxyxGGDDxhxyfGCDhdfc&Message=".$msg."&To=".$mobile;
+      $url="http://www.smsidea.co.in/sendsms.aspx?mobile=xxxxxxxxx&pass=XXXX&senderid=SMSBUZ&to=".$phone  ."&msg=".$msg;
       $msgst=@file_get_contents($url);
       if($msgst)
       {
