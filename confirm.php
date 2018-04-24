@@ -100,7 +100,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
             <?php
             if(isset($_GET['resendotp'])){
               $msg=urlencode("Hello OTP is - $otp\n Don't Share with anyone \n Powered By -https://www.freesv.com");
-               $url="https://smsapi.engineeringtgr.com/send/?Mobile=9008444205&Password=varunadeva&Key=VaruGGnIfuxxyxGGDDxhxyfGCDhdfc&Message=".$msg."&To=".$phone;
+               $url="https://smsapi.engineeringtgr.com/send/?Mobile=xxxxxxxxxx&Password=xxxxxxxx&Key=xxxxxxxxxxxxxxxxxxx&Message=".$msg."&To=".$phone;
                $msgst=@file_get_contents($url);
              }
             ?>
