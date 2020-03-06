@@ -10,7 +10,7 @@ $otp=$_SESSION['otp'];
 $phone=$_SESSION['phone'];
 $otprcvd_err=$otprcvd=$patient_id="";
 
-echo "$otp + $phone";
+//echo "$otp + $phone";
 if($_SERVER["REQUEST_METHOD"] == "POST")
 {
     // Validate mobile Number
